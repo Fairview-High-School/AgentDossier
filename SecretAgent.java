@@ -55,6 +55,9 @@ public class SecretAgent {
         String rest     = "";    // TODO: everything after it
         int secondSpace = 0;     // TODO: where is the space inside rest?
 
+        // NOT a TODO - leave these three lines alone.
+        // They are declared HERE, before the if, so they still exist after it.
+        // The if below is where they get their real values.
         String middle   = "";
         String last     = "";
         String initials = "";
@@ -150,7 +153,7 @@ public class SecretAgent {
         // TIF 2  Masked contact: first letter of the email, then ***@ and
         //        the domain.                r***@bvsd.org
         // TIF 3  A border that fits the name. Start from a long String of
-        //        = signs like like String border = "=======================" and cut 
+        //        = signs like like String border = "=======================" and cut
 		//        it to fullName.length() + 4. Print it above
         //        and below the name, at the very top of the dossier.
         // TIF 4  Months to next birthday, counted from October:
