@@ -1,56 +1,13 @@
-# === Java build output ===
+# Compiled output
 *.class
-*.jar
-*.war
-*.ear
-target/
 bin/
 out/
-build/
+target/
 
-# === Build tools ===
-# Maven
-.mvn/
-!.mvn/wrapper/maven-wrapper.jar
-mvnw
-mvnw.cmd
-
-# Gradle
-.gradle/
-gradle-app.setting
-!gradle-wrapper.jar
-
-# === IDEs ===
-.idea/
-#*.iml
-*.ipr
-*.iws
+# IDE and OS noise
 .vscode/
-.settings/
-.classpath
-.project
-.factorypath
-
-# === OS files ===
 .DS_Store
 Thumbs.db
-Desktop.ini
 
-# === Logs ===
-*.log
-hs_err_pid*
-
-# === Data files (uncomment what applies to your project) ===
-# Generated/output data — usually shouldn't be tracked
-*.csv
-*.tsv
-*.json
-*.xml
-*.db
-*.sqlite
-*.sqlite3
-
-# === Secrets / local config ===
-.env
-*.local
-application-local.properties
+# IntelliJ: .idea/ and the .iml ARE committed on purpose - without them a fresh clone
+# has no module, no source root and no Run button. Per-user files: see .idea/.gitignore.
