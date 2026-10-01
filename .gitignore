@@ -22,7 +22,7 @@ gradle-app.setting
 
 # === IDEs ===
 .idea/
-*.iml
+#*.iml
 *.ipr
 *.iws
 .vscode/
